@@ -1,50 +1,51 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
+
+
 /*=============header section==================== */
-#header span
-{
-    font-size:1.3em;
+
+#header span {
+    font-size: 1.3em;
     font-weight: 1000;
     color: #5C1B1B;
 }
-#header .navbar
-{
-font-size: 1.3em;
+
+#header .navbar {
+    font-size: 1.3em;
 }
-#header .navbar ul li
-{
+
+#header .navbar ul li {
     margin: 0.7em;
 }
 
-#header .row .col1
-{
+#header .row .col1 {
     max-width: 100%;
     overflow: hidden;
 }
-#header .row .col1 img
-{
- max-width: 100%;
+
+#header .row .col1 img {
+    max-width: 100%;
 }
-#header .row .col2
-{
+
+#header .row .col2 {
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-#header .row .col2 h1
-{
+
+#header .row .col2 h1 {
     font-size: 3em;
     font-weight: 1000;
-} 
-#header .row .col2 p
-{
+}
+
+#header .row .col2 p {
     font-size: 20px;
 }
-#header .row .col2 button
-{
+
+#header .row .col2 button {
     background-color: #5C1B1B;
     color: #fff;
     font-size: 1.3em;
@@ -52,41 +53,51 @@ font-size: 1.3em;
     padding: 0.5em 1em;
     border: none;
 }
+
+.register-page {
+    width: 400px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #d9dddc;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+
 /*-------- YOUR CODE HERE */
 
 
- /*------- END OF YOUR CODE HERE */
+/*------- END OF YOUR CODE HERE */
+
 
 /* MEDIA QUERY */
-@media only screen and (max-width: 600px) 
-{
 
+@media only screen and (max-width: 600px) {
     /*=============header section==================== */
-   
-    #navbar .row
-    {
+    #navbar .row {
         height: 80vh;
     }
-    #header .row .col1
-    {
+    #header .row .col1 {
         max-width: 100%;
         overflow: hidden;
     }
-   #header .row .col2
-    {
+    #header .row .col2 {
         padding: 20%;
     }
-   
-    #header .row .col2 h1
-    {
+    #header .row .col2 h1 {
         font-size: 1.7em;
-    } 
-    #header .row .col2 p
-    {
+    }
+    #header .row .col2 p {
         font-size: 13px;
     }
-    #header .row .col2 button
-    {
+    #header .row .col2 button {
         background-color: #5C1B1B;
         color: #fff;
         font-size: 1em;
@@ -94,8 +105,6 @@ font-size: 1.3em;
         padding: 0.5em 1em;
         border: none;
     }
-     /* YOUR CODE HERE */
-
-      /* END OF YOUR CODE HERE */
- 
+    /* YOUR CODE HERE */
+    /* END OF YOUR CODE HERE */
 }
