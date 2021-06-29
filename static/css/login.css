@@ -127,6 +127,12 @@ a
 {
     display: none;
 } */
+h3{
+	
+	text-align: center;
+	background: #F3C693;
+	border-radius: 10px;
+}
 .form-box
 {
     width:380px;
