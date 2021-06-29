@@ -63,18 +63,45 @@ body {
 .form {
     position: relative;
     z-index: 1;
-    background: #d9dddc;
+    background: #cfd1d1;
     max-width: 400px;
     margin: 0 auto 100px;
     padding: 30px;
     text-align: center;
 }
 
+.form h4 {
+    font-weight: bold;
+}
 
-/*-------- YOUR CODE HERE */
+.form label {
+    width: 40%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 1rem;
+}
 
+.form input {
+    width: 55%;
+    border: none;
+}
 
-/*------- END OF YOUR CODE HERE */
+.form button {
+    border-radius: 10px;
+    background: #5C1B1B;
+    padding: 2px;
+    width: 42%;
+    border: none;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.form a {
+    margin: 15px;
+    color: black;
+}
 
 
 /* MEDIA QUERY */
