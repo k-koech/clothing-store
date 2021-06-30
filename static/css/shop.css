@@ -91,14 +91,39 @@ font-size: 1.3em;
   height: 100%;
 }
 /*  */
-.hot-items .col
-{
-  border: 1px solid rgb(211, 209, 209);
-}
-.hot-items .item:hover
+
+.hot-items .image:hover
 {
   opacity: 0.5;
   cursor: pointer;
+}
+.hot-items .cols .item button
+{
+  background-color: #611B1B;
+  color: #fff;
+}
+.hot-items .cols .item button:hover
+{
+  background-color: #703535;
+}
+.hot-items .cols
+{
+  border: 1px solid rgb(211, 209, 209);
+  position: relative;
+  display: flex;
+  padding-bottom: 1em;
+}
+.hot-items .ratings
+{
+  width: 85%;
+  border-radius: 5px;
+  background-color: burlywood;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   display: none;
+   transform: translate(-50%, -50%);
+    
 }
 .fa-star {  
   font-size : 20px;  
