@@ -7,6 +7,9 @@ function register() {
     if (email == null || email == "") {
         alert("Enter Your Email");
         return false;
+    } else if (email.indexOf('@') == -1) {
+        alert("please input valid email Address")
+        return false;
     }
     if (userName == null || userName == "") {
         alert("Enter UserName");
