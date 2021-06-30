@@ -180,15 +180,22 @@ color: white;
     {
     min-height: 90vh;
     }
-    
-    #navbar .row
+   
+    #header .row
     {
+        margin-top: 0px;
         height: 80vh;
     }
     #header .row .col1
     {
         max-width: 100%;
         overflow: hidden;
+    }
+    #header .row .col1 img
+    {
+        margin-top: 0;
+        padding-top: 0px;
+        text-align: center;
     }
    #header .row .col2
     {
@@ -209,7 +216,7 @@ color: white;
         color: #fff;
         font-size: 1em;
         border-radius: 1.2em;
-        padding: 0.5em 1em;
+        /* padding: 0.5em 1em; */
         border: none;
     }
     /* ============pop collections===================== */
