@@ -1,6 +1,6 @@
 # KK clozzet
 #### The app is all about clothing/fashion shop, 30/06/2021
-#### ** By Kelvin Kipchumba, Stephane Evrard, Charles Opuba, Kipkemoi Bett, Hawa Evakali **
+#### **By Kelvin Kipchumba, Stephane Evrard, Charles Opuba, Kipkemoi Bett, Hawa Evakali**
 ## Description
 The application includes a  landing page which shows the popular colections and a footer with contact details. 
 There is also a shop, login and register pages.
@@ -20,5 +20,5 @@ HTML, CSS AND Bootstrap, JS
 email :: koechkelvin97@gmail.com, hawa.evakali@student.moringaschool.com, kelvin.bett@student.moringaschool.com, charles.opuba@student.moringaschool.com, gozzo.ded@student.moringaschool.com
 ### License
 *LIcenced under the [MT-licence](https://github.com/k-koech/Clothing-Store/blob/master/LICENCE.md)*
-Copyright (c) 2021 ** Kelvin Kipchumba, Stephane Evrard, Charles Opuba, Kipkemoi Bett, Hawa Evakali **
+Copyright (c) 2021 **Kelvin Kipchumba, Stephane Evrard, Charles Opuba, Kipkemoi Bett, Hawa Evakali**
   
