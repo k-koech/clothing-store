@@ -11,7 +11,7 @@ There is also a shop, login and register pages.
 * And you are all done
 The application has no backend. Just frontend.
 ## Live server
-* You can view the web live on [Clothing Store](https://k-koech.github.io/Clothing-Store/)
+* You can view the web live on [Clothing Store](https://k-koech.github.io/clothing-store/)
 ## Known Bugs
 The application works perfectly well, no bugs.
 ## Technologies Used
