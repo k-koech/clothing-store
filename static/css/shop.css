@@ -19,7 +19,8 @@ font-size: 1.3em;
 
 #header .carts-div
 {  
-  position: relative;
+  position: fixed;
+  z-index: 1000;
 }
 #header .carts-div:hover
 {
@@ -39,6 +40,17 @@ font-size: 1.3em;
 #header .carts-div .fa-circle span .badge
 {
   color: #fff !important;
+}
+#header .navbarr
+{
+  position: fixed;
+  width: 100%;
+  margin:auto;
+  overflow: hidden;
+}
+.modalk {
+  width: 70% !important;
+  margin: auto;
 }
 /* =------segments------- */
 #segments

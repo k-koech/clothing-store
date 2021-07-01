@@ -268,14 +268,14 @@ $('.ratings').each(function()
     if (!$("#" + idCartModal).length) {
       $('body').append(
         '<div class="modal fade" id="' + idCartModal + '" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">' +
-        '<div class="modal-dialog" role="document">' +
+        '<div class="modal-dialog modal-lg text-center" role="document">' +
         '<div class="modal-content">' +
         '<div class="modal-header">' +
         '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
         '<h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-shopping-cart"></span> My Cart</h4>' +
         '</div>' +
         '<div class="modal-body">' +
-        '<table class="table table-hover table-responsive" id="' + idCartTable + '"></table>' +
+        '<div class="table-responsive"><table class="table table-hover " id="' + idCartTable + '"></table></div>' +
         '</div>' +
         '<div class="modal-footer">' +
         '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
@@ -321,14 +321,14 @@ $('.ratings').each(function()
       var discountPrice = options.getDiscountPrice(products, ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
       if (products.length && discountPrice !== null) {
         $cartTable.append(
-          '<tr style="color: red">' +
-          '<td></td>' +
-          '<td><strong>Total (including discount)</strong></td>' +
-          '<td></td>' +
-          '<td></td>' +
-          '<td class="text-right"><strong id="' + idDiscountPrice + '"></strong></td>' +
-          '<td></td>' +
-          '</tr>'
+            // '<tr style="color: red">' +
+            // '<td></td>' +
+            // '<td><strong>Total (including discount)</strong></td>' +
+            // '<td></td>' +
+            // '<td></td>' +
+            // '<td class="text-right"><strong id="' + idDiscountPrice + '"></strong></td>' +
+            // '<td></td>' +
+            // '</tr>'
         );
       }
 
