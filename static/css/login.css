@@ -56,14 +56,9 @@ body {
 
 
 /*-------- YOUR CODE HERE */
-
-.login-page {
+.logReg .login-page {
     width: 400px;
-    padding: 10% 0 0;
-    /* margin: auto; */
-    top: 40%;
-    left: 50%;
-    transform: translate(200%, -20%);
+    margin: auto;
 }
 
 .form {

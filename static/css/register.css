@@ -53,14 +53,13 @@ body {
     padding: 0.5em 1em;
     border: none;
 }
-
-.register-page {
+.logReg.register-page {
     width: 400px;
-    padding: 10% 0 0;
-    /* margin: auto; */
-    top: 40%;
+    /* padding: 10% 0 0; */
+     /* margin-top: 5%;  */
+    /*top: 40%;
     left: 50%;
-    transform: translate(200%, -20%);
+    transform: translate(200%, -20%); */
 }
 
 .form {
