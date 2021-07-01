@@ -2,7 +2,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 /*=============header section==================== */
-#header span
+#header .title
 {
   font-size:1.3em;
   font-weight: 1000;
@@ -17,6 +17,29 @@ font-size: 1.3em;
   margin: 0.7em;
 }
 
+#header .carts-div
+{  
+  position: relative;
+}
+#header .carts-div:hover
+{
+  cursor: pointer;
+  opacity: 0.5;
+}
+#header .carts-div .circle
+{
+  position: absolute;
+  right: 0.2em;
+  top: -0.3em;
+  font-size: 0.7em;
+  border-radius: 50%;
+  color: #fff !important;
+  background-color: rgb(174, 16, 16);
+}
+#header .carts-div .fa-circle span .badge
+{
+  color: #fff !important;
+}
 /* =------segments------- */
 #segments
 {
