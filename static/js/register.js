@@ -7,6 +7,9 @@ function register() {
     if (email == null || email == "") {
         alert("Enter Your Email");
         return false;
+    } else if (email.indexOf('@') == -1) {
+        alert("please input valid email Address")
+        return false;
     }
     if (userName == null || userName == "") {
         alert("Enter UserName");
@@ -19,7 +22,11 @@ function register() {
     if (password == null || password == "") {
         alert("Enter password");
         return false;
+    } else if (password.length <= 6 || password.length >= 15) {
+        alert("password length should be more than 6 characters and less than 15");
+        return false;
     }
+
     if (confirmPassword == null || confirmPassword == "") {
         alert("confirm password should be entered");
         return false;
